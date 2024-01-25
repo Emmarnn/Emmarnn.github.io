@@ -132,3 +132,25 @@ function highlightButton() {
     }, 3000);
   });
 }
+
+// hide anchor
+document.addEventListener("DOMContentLoaded", function () {
+  // Sélectionnez tous les liens avec des ancres
+  var links = document.querySelectorAll('a[href^="#"]');
+
+  // Ajoutez un gestionnaire d'événements à chaque lien
+  links.forEach(function (link) {
+    link.addEventListener("click", function (event) {
+      // Annule le comportement par défaut du lien
+      event.preventDefault();
+
+      // Récupère l'ancien et le nettoie
+      var targetId = this.getAttribute("href").substring(1);
+
+      // Fait défiler jusqu'à l'élément cible
+      document.getElementById(targetId).scrollIntoView({
+        behavior: "smooth",
+      });
+    });
+  });
+});
