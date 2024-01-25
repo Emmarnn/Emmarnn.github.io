@@ -134,12 +134,12 @@ h1, .h1 {
   }
 }
 
- #titleAnimated {
-  background-image: linear-gradient(to right, #231557, #44107a, #893535, #ff0000);
+#titleAnimated {
+  background: linear-gradient(to right, #231557, #44107a, #893535, #ff0000);
+  color: transparent;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
-  color: transparent !important;
   -webkit-text-fill-color: transparent;
 }
 
