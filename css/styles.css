@@ -11050,14 +11050,14 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 
-#creations .container-fluid, #creations .container-sm, #creations .container-md, #creations .container-lg, #creations .container-xl, #creations .container-xxl {
+#portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
   max-width: 1920px;
 }
-#creations .container-fluid .creations-box, #creations .container-sm .creations-box, #creations .container-md .creations-box, #creations .container-lg .creations-box, #creations .container-xl .creations-box, #creations .container-xxl .creations-box {
+#portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
   position: relative;
   display: block;
 }
-#creations .container-fluid .creations-box .creations-box-caption, #creations .container-sm .creations-box .creations-box-caption, #creations .container-md .creations-box .creations-box-caption, #creations .container-lg .creations-box .creations-box-caption, #creations .container-xl .creations-box .creations-box-caption, #creations .container-xxl .creations-box .creations-box-caption {
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11073,16 +11073,16 @@ header.masthead h1, header.masthead .h1 {
   transition: opacity 0.25s ease;
   text-align: center;
 }
-#creations .container-fluid .creations-box .creations-box-caption .project-category, #creations .container-sm .creations-box .creations-box-caption .project-category, #creations .container-md .creations-box .creations-box-caption .project-category, #creations .container-lg .creations-box .creations-box-caption .project-category, #creations .container-xl .creations-box .creations-box-caption .project-category, #creations .container-xxl .creations-box .creations-box-caption .project-category {
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
 }
-#creations .container-fluid .creations-box .creations-box-caption .project-name, #creations .container-sm .creations-box .creations-box-caption .project-name, #creations .container-md .creations-box .creations-box-caption .project-name, #creations .container-lg .creations-box .creations-box-caption .project-name, #creations .container-xl .creations-box .creations-box-caption .project-name, #creations .container-xxl .creations-box .creations-box-caption .project-name {
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
   font-size: 1.2rem;
 }
-#creations .container-fluid .creations-box:hover .creations-box-caption, #creations .container-sm .creations-box:hover .creations-box-caption, #creations .container-md .creations-box:hover .creations-box-caption, #creations .container-lg .creations-box:hover .creations-box-caption, #creations .container-xl .creations-box:hover .creations-box-caption, #creations .container-xxl .creations-box:hover .creations-box-caption {
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
 

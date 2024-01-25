@@ -121,7 +121,7 @@ $(document).ready(function () {
   wordflick();
 });
 
-// fucntion clignotement logos contact 
+// function clignotement logos contact 
     function highlightButton() {
       var buttons = document.querySelectorAll('.logoFooter');
     
