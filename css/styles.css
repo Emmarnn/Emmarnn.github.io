@@ -136,8 +136,11 @@ h1, .h1 {
 
  #titleAnimated {
   background-image: linear-gradient(to right, #231557, #44107a, #893535, #ff0000);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
   background-clip: text;
   color: transparent !important;
+  -webkit-text-fill-color: transparent;
 }
 
 
