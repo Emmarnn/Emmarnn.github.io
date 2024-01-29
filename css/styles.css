@@ -7324,3 +7324,16 @@ footer {
   border-radius: 2px;
   background-color: none;
 }
+
+.mailto-about{
+  text-decoration: none;
+  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) ;
+
+}
+.mailto-about:hover{
+  text-decoration: none;
+  color: rgba(
+      var(--bs-secondary-rgb),
+      var(--bs-bg-opacity)
+    );
+}
