@@ -7065,6 +7065,11 @@ hr.divider-empty {
   color: transparent;
 }
 
+hr.divider-blueSky {
+  color:#66FCF1;
+  background-color:#66FCF1;
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
