@@ -162,12 +162,7 @@ h1,
 }
 
 #titleAnimated {
-  background: linear-gradient(to right, #231557, #44107a, #893535, #ff0000);
-  color: transparent;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #66fcf1;
 }
 
 /* début text typed  */
@@ -2606,11 +2601,12 @@ fieldset:disabled .btn {
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
   color: var(--bs-navbar-color);
-  background-color: transparent;
+  background-color: #bbbbbb;
   border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
 }
+
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
     transition: none;
@@ -7313,27 +7309,22 @@ footer {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 15px;
 }
 
 .skill-experience {
   font-size: 15px;
-  color: #00439c;
-  border: 1px solid #00439c;
+  color: #66fcf1;
+  border: 1px solid #66fcf1;
   padding: 3px 6px;
   border-radius: 2px;
   background-color: none;
 }
 
-.mailto-about{
+.mailto-about {
   text-decoration: none;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) ;
-
+  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity));
 }
-.mailto-about:hover{
+.mailto-about:hover {
   text-decoration: none;
-  color: rgba(
-      var(--bs-secondary-rgb),
-      var(--bs-bg-opacity)
-    );
+  color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity));
 }
