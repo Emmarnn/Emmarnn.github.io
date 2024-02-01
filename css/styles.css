@@ -94,11 +94,6 @@
   box-sizing: border-box;
 }
 
-/* .dark-mode {
-  background-color: black;
-  color: white;
-} */
-
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -107,6 +102,8 @@
 
 body {
   margin: 0;
+  width: 100%;
+  height: 100%;
   font-family: var(--bs-body-sans-serif);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -119,7 +116,21 @@ body {
   font-family: Merriweather Sans, -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  transition: background-color 0.5s, color 0.5s;
 }
+
+/* btn dark/light mode  */
+/* .dark-mode {
+  background-color: green;
+    color: #000;
+}
+
+.btn-changeMode{
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 0px 20px 0px 20px;
+} */
+/* fin btn dark/light mode  */
 
 hr {
   margin: 1rem 0;
@@ -2370,12 +2381,6 @@ fieldset:disabled .btn {
   border-top-right-radius: 0;
 }
 
-/* btn dark/light mode  */
-/* .btn-changeMode{
-  border-radius: 20px;
-  font-size: 15px;
-  padding: 0px 20px 0px 20px;
-} */
 .nav {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
@@ -7015,11 +7020,6 @@ html {
   scroll-padding-top: calc(4.5rem - 1px);
 }
 
-body {
-  width: 100%;
-  height: 100%;
-}
-
 .page-section-services {
   padding: 8rem 0;
   background: rgba(0, 67, 156, 0.2);
@@ -7066,8 +7066,8 @@ hr.divider-empty {
 }
 
 hr.divider-blueSky {
-  color:#66FCF1;
-  background-color:#66FCF1;
+  color: #66fcf1;
+  background-color: #66fcf1;
 }
 
 #mainNav {

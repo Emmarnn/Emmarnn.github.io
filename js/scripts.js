@@ -55,19 +55,19 @@ window.addEventListener("DOMContentLoaded", (event) => {
   });
 });
 
-// function dark mode
+// // function dark/light mode
 // function myFunction() {
-//   var element = document.body;
-//   element.classList.toggle("dark-mode");
+//   var body = document.body;
 
-//     // Obtenir le bouton
-//     var button = document.querySelector('.btn-changeMode');
+//   body.classList.toggle("dark-mode");
 
-//     // Vérifier si la classe dark-mode est présente sur le body
-//     var isDarkMode = element.classList.contains("dark-mode");
-
-//     // Mettre à jour le texte du bouton en conséquence
-//     button.textContent = isDarkMode ? "Light Mode" : "Dark Mode";
+//     // Change the text of the button based on the current mode
+//   var button = document.getElementById("btn-toggleMode");
+//     if (body.classList.contains("dark-mode")) {
+//       button.textContent = "Light Mode";
+//   } else {
+//       button.textContent = "Dark Mode";
+//   }
 // }
 
 // function textTyped
