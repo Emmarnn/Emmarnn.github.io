@@ -721,6 +721,7 @@ summary {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 3px;
 }
 
 .rounded {
@@ -7026,7 +7027,7 @@ html {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid #00439c33;
-  box-shadow: 0 2px 10px #0000001a;
+  /* box-shadow: 0 2px 10px #0000001a; */
 }
 
 .page-section-about {
@@ -7034,6 +7035,16 @@ html {
   border-color: #00439c;
   border-style: solid;
   border-radius: 10px;
+}
+
+.bloc-p-creations {
+  padding: 1rem;
+  background: rgba(0, 67, 156, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid #00439c33;
+  border-radius: 5px;
+  /* box-shadow: 0 2px 10px #0000001a; */
 }
 
 .text-white-75 {
@@ -7263,6 +7274,7 @@ header.masthead .h1 {
 #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption,
 #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+  border-radius: 3px;
 }
 
 body,
@@ -7323,6 +7335,12 @@ footer {
   padding: 3px 6px;
   border-radius: 2px;
   background-color: none;
+}
+
+.tech-creations {
+  font-size: 15px;
+  color: #fcfcfd;
+  padding: 5px;
 }
 
 .mailto-about {
