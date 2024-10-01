@@ -7331,10 +7331,16 @@ footer {
 .skill-experience {
   font-size: 15px;
   color: #66fcf1;
-  border: 1px solid #66fcf1;
+  border: 1px solid ;
   padding: 3px 6px;
   border-radius: 2px;
   background-color: none;
+  transition: .5s;
+}
+
+.skill-experience:hover{
+  font-size:larger;
+  transition: .5s;
 }
 
 .tech-creations {
