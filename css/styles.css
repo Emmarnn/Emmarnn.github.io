@@ -366,8 +366,10 @@ a {
   color: var(--bs-link-color);
   text-decoration: underline;
 }
+
 a:hover {
-  color: var(--bs-link-hover-color);
+  transition: .15s;
+  color: #00439c;
 }
 
 a:not([href]):not([class]),
