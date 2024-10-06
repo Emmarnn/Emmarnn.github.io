@@ -55,7 +55,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
   });
 });
 
-// // function dark/light mode
+// function dark/light mode
+
 // function myFunction() {
 //   var body = document.body;
 
