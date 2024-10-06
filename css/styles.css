@@ -152,7 +152,7 @@ body {
   font-size: 15px;
   padding: 0px 20px 0px 20px;
 } */
- 
+
 /* fin btn dark/light mode  */
 
 hr {
@@ -378,7 +378,7 @@ sup {
 
 a {
   color: var(--bs-link-color);
-  text-decoration: underline;
+  transition: .5s;
 }
 
 a:hover {
