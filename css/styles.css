@@ -121,9 +121,14 @@ body {
 
 /* btn dark/light mode  */
 
-/* .dark-mode {
+.no-light-mode{
+  color: white !important;
+}
+
+.dark-mode{
   background-color: white;
     color: black;
+    color: inherit;
 
 
     p, h1, h2, h3, h4, h5, span, a{
@@ -150,8 +155,9 @@ body {
 .btn-changeMode{
   border-radius: 20px;
   font-size: 15px;
-  padding: 0px 20px 0px 20px;
-} */
+  padding: 0px 3px 0px 3px;
+  
+}
 
 /* fin btn dark/light mode  */
 

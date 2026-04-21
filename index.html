@@ -42,49 +42,48 @@
 
   <body id="page-top">
     <!-- Navbar-->
-    <nav
-      class="navbar navbar-expand-lg navbar-light fixed-top py-3"
-      id="mainNav"
-    >
-      <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="#page-top">Emmanuel KAMBA</a>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+  <div class="container px-4 px-lg-5 d-flex align-items-center">
 
-        <button
-          class="navbar-toggler navbar-toggler-right"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto my-2 my-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#page-top">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">A propos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Créations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer" onclick="highlightButton()"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </div>
-        <!-- button /light mode -->
-         <!-- <button class="btn-changeMode" id="btn-toggleMode" onclick="myFunction()">Dark mode</button> -->
-      </div>
-    </nav>
+    <a class="navbar-brand" href="#page-top">Emmanuel KAMBA</a>
+
+    <!-- bouton burger -->
+    <button
+      class="navbar-toggler ms-auto order-lg-2"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- menu -->
+    <div class="collapse navbar-collapse order-lg-1" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto my-2 my-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#page-top">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">A propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Créations</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer" onclick="highlightButton()">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- bouton dark mode -->
+    <button
+      class="btn-changeMode ms-lg-4 order-lg-3"
+      id="btn-toggleMode"
+      onclick="myFunction()"
+    >
+      <i class="bi bi-moon"></i>
+    </button>
+
+  </div>
+</nav>
     <!-- header-->
     <header class="masthead">
       <div class="container px-4 px-lg-5 h-100">
@@ -99,11 +98,11 @@
             <hr class="divider divider-blueSky">
           </div>
           <div class="col-lg-8 align-self-baseline">
-            <p class="text-white-75 mb-5">
+            <p class="text-white-75 mb-5 no-light-mode">
               Bienvenue sur mon portfolio, vous découvrirez :
-              <span class="textTyped"></span>
+              <span class="textTyped no-light-mode"></span>
             </p>
-            <a class="btn btn-primary btn-xl" href="#about"
+            <a class="btn btn-primary btn-xl no-light-mode" href="#about"
               >Découvrez en plus</a
             >
           </div>
@@ -271,7 +270,7 @@
                     </p>
                   </div>
                 </div>
-              </div>c
+              </div>
             </div>
           </div>
         </div>

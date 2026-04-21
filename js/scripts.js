@@ -55,21 +55,23 @@ window.addEventListener("DOMContentLoaded", (event) => {
   });
 });
 
-// function dark/light mode
+//function dark/light mode
 
-// function myFunction() {
-//   var body = document.body;
+function myFunction() {
+  var body = document.body;
 
-//   body.classList.toggle("dark-mode");
+  body.classList.toggle("dark-mode");
 
-//     // Change the text of the button based on the current mode
-//   var button = document.getElementById("btn-toggleMode");
-//     if (body.classList.contains("dark-mode")) {
-//       button.textContent = "Light Mode";
-//   } else {
-//       button.textContent = "Dark Mode";
-//   }
-// }
+    // Change the text of the button based on the current mode
+  var button = document.getElementById("btn-toggleMode");
+    if (body.classList.contains("dark-mode")) {
+      button.innerHTML = '<i class="bi bi-sun"></i>';
+  } else {
+      button.innerHTML = '<i class="bi bi-moon"></i>';
+  }
+}
+
+    //end function dark/light mode
 
 // function textTyped
 var words = [
